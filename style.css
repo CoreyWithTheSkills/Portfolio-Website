@@ -222,21 +222,14 @@ cursor: pointer;
 }
 
 @keyframes words{
-0%,20%{
+0%,33%{
     Content:"Web Developer";
 }
-21%,40%{
+33%,66%{
     Content:"Software Developer";
 }
-41%,60%{
+66%,100%{
     Content:"Web Designer";
-}
-61%, 80%{
-    Content:"Youtuber";
-}
-
-81%, 100%{
-    content:"Script Writter";
 }
 }
 
@@ -264,4 +257,27 @@ cursor: pointer;
         width: 70vw;
         margin-top: 4rem;
     }
+}
+
+h2{
+    font-size: 6rem;
+}
+
+.ProjectsList{
+    font-size: 3rem;
+}
+
+p{
+ font-size: 2rem;   
+}
+
+.Projects{
+    background-color: red;
+}
+
+.ProjectsList{
+    position: relative;
+    margin-top: 50px;
+    font-family: 'Poppins',sans-serif;
+text-decoration: none;
 }
