@@ -265,19 +265,10 @@ h2{
 
 .ProjectsList{
     font-size: 3rem;
+    position: relative;
+    margin-top: 25px;
 }
 
 p{
  font-size: 2rem;   
-}
-
-.Projects{
-    background-color: red;
-}
-
-.ProjectsList{
-    position: relative;
-    margin-top: 50px;
-    font-family: 'Poppins',sans-serif;
-text-decoration: none;
 }
