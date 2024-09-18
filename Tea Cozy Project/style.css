@@ -1,0 +1,74 @@
+/* Universal */
+*{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+
+
+/* Nav*/
+#nav{
+    border-bottom: 1px solid seashell;
+    display: flex;
+    height: 69px;
+}
+
+.navheadings{
+ display: flex;
+ text-align: center;
+ text-decoration: underline;
+ list-style-type: none;
+ position: relative;
+ left:900px
+}
+
+.teacozypicture{
+    height: 50px;
+    position: relative;
+    left: 10px;
+}
+
+/* First Section */
+
+.firstsection{
+    border-bottom:1px solid seashell; ;
+}
+
+.background{
+    height: 700px;
+    position: relative;
+    left: 220px;
+}
+
+.backgroundtext{
+    position: relative;
+    left: 0px;
+    bottom: 400px;
+    text-align: center;
+
+}
+
+/* Second Section */
+
+.secondsectionheading{
+    text-align: center;
+}
+
+.berry{
+    height: 200px;
+    width: 300px;
+}
+
+.secondsectionimages{
+display: flex;
+flex-wrap: wrap;
+align-content: flex-end;
+}
+
+.secondsection{
+    border-bottom: 1px solid seashell; 
+    height: 1000px;
+}
