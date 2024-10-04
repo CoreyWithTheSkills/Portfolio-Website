@@ -39,7 +39,7 @@ header{
 
 .logo{
     font-size: 3rem;
-    color: red;
+    color: #0000FF;
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
@@ -60,8 +60,8 @@ nav a{
 
 nav a:hover,
 nav a.active{
-    color: red;
-    border-bottom: 3px solid red;
+    color: #0000FF;
+    border-bottom: 3px solid #0000FF;
 }
 
 @media(max-width:955px){
@@ -71,8 +71,8 @@ nav a.active{
         top: 0;
         right: 0;
         width: 40%;
-        border-left: 3px solid red;
-        border-bottom: 3px solid red;
+        border-left: 3px solid #0000FF;
+        border-bottom: 3px solid #0000FF;
         border-bottom-left-radius: 2rem;
         padding: 1rem solid;
         background-color: black;
@@ -94,7 +94,7 @@ nav a:hover,
 nav a.active{
     padding: 1rem;
     border-radius: 0.5rem;
-    border-bottom: 0.5rem solid red;
+    border-bottom: 0.5rem solid #0000FF;
 }
 }
 
@@ -118,7 +118,7 @@ section{
 }
 
 .span{
-    color:red;
+    color:#0000FF;
 }
 
 .home-content h3{
@@ -135,7 +135,7 @@ section{
     position: relative;
     width: 32vw;
     border-radius: 50%;
-    box-shadow: 0 0 25px solid red;
+    box-shadow: 0 0 25px solid #0000FF;
     cursor: pointer;
     transition: 0.2s linear;
 }
@@ -152,19 +152,19 @@ section{
  width: 4rem;
  height: 4rem;
  background-color: transparent;
- border: 0.2rem solid red;
+ border: 0.2rem solid #0000FF;
  font-size: 2rem;
  border-radius: 50%;
  margin: 3rem 1.5rem 3rem 0;
  transition: 0.3s ease;
- color: red;
+ color: #0000FF;
 }
 
 .social-icon a:hover{
     color: black;
     transform: scale(1.3)translateY(-5px);
-    background-color: red;
-    box-shadow: 0 0 25px red;
+    background-color: #0000FF;
+    box-shadow: 0 0 25px #0000FF;
 }
 
 .btn{
@@ -173,19 +173,19 @@ padding: 1rem 2.8rem;
 background-color: black;
 border-radius: 4rem;
 font-size: 1.6rem;
-color: red;
+color: #0000FF;
 letter-spacing: 0.3rem;
 font-weight: 600;
-border: 2px solid red;
+border: 2px solid #0000FF;
 transition: 0.3s ease;
 cursor: pointer;
 }
 
 .btn:hover{
     transform: scale3d(1.03);
-    background-color: red;
+    background-color: #0000FF;
     color: black;
-    box-shadow: 0 0 25px red;
+    box-shadow: 0 0 25px #0000FF;
 }
 
 .typing-text{
@@ -200,7 +200,7 @@ cursor: pointer;
 
 .typing-text span::before{
     content:"Software Developer";
-    color: red;
+    color: #0000FF;
     animation: words 20s infinite;
 }
 
@@ -217,7 +217,7 @@ cursor: pointer;
 
 @keyframes cursor{
     to{
-        border-left: 3px solid red;
+        border-left: 3px solid #0000FF;
     }
 }
 
