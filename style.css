@@ -222,13 +222,10 @@ cursor: pointer;
 }
 
 @keyframes words{
-0%,33%{
+0%,50%{
     Content:"Web Developer";
 }
 33%,66%{
-    Content:"Software Developer";
-}
-66%,100%{
     Content:"Web Designer";
 }
 }
