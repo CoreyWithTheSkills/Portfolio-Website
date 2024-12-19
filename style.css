@@ -199,7 +199,7 @@ cursor: pointer;
 }
 
 .typing-text span::before{
-    content:"Software Developer";
+    content:"Web Developer";
     color: white;
     animation: words 20s infinite;
 }
@@ -217,7 +217,7 @@ cursor: pointer;
 
 @keyframes cursor{
     to{
-        border-left: 3px solid #0000FF;
+        border-left: 3px solid white;
     }
 }
 
